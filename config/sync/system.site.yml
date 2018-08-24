@@ -1,0 +1,14 @@
+uuid: a9bf6be5-c6e8-4220-9a32-5d472699b867
+name: D8Turismo
+mail: victor.diaz@solucionex.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: es
+default_langcode: es
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

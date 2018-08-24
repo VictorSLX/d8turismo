@@ -1,0 +1,13 @@
+uuid: ed7b6226-7ed3-42a3-a48e-d3541afebc8c
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: C7X8h9FWlwkQ9y5mnU2JzgaZICAdc6HFbPVbhvjlAYE
+id: node_unpublish_action
+label: 'Retirar contenido de la publicación'
+type: node
+plugin: 'entity:unpublish_action:node'
+configuration: {  }

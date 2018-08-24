@@ -1,0 +1,20 @@
+uuid: e94a768a-9357-41cf-a2e5-55c1b204822d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - nexus
+_core:
+  default_config_hash: ytYyu-zDxI_ZG4MSUcsWzsIm6_Rdk1yUhnk4mfJrmSs
+id: nexus_local_actions
+theme: nexus
+region: help
+weight: 20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

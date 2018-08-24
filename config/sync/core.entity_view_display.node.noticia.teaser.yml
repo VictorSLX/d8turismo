@@ -1,0 +1,29 @@
+uuid: 436176dc-9b11-4f92-a242-196eee668c05
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.noticia.body
+    - node.type.noticia
+  module:
+    - text
+    - user
+id: node.noticia.teaser
+targetEntityType: node
+bundle: noticia
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true
